@@ -1,6 +1,6 @@
 // Container, so all of state
 import React, { Component } from 'react';
-import SellerProfile from "./SellerProfile";
+import SellerPage from "./SellerPage";
 import axios from "axios";
 
 class SellerProfileContainer extends Component {
@@ -35,7 +35,7 @@ class SellerProfileContainer extends Component {
 	render() {
 		const {products, seller} = this.state;
 		return (
-			<SellerProfile products={products} seller={seller}/>
+			<SellerPage products={products} seller={seller}/>
 		);
 	}
 }

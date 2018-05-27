@@ -1,9 +1,9 @@
 import React from 'react';
 import SellerHeader from "./SellerHeader";
-import "../css/seller/SellerProfile.css";
+import "../css/seller/SellerPage.css";
 import SellerBody from "./SellerBody";
 
-const SellerProfile = (props) => {
+const SellerPage = (props) => {
 	console.log("props1", props)
 	return (
 		<div className="seller-profile-container">
@@ -12,4 +12,4 @@ const SellerProfile = (props) => {
 		</div>
 	);
 }
-export default SellerProfile;
+export default SellerPage;
